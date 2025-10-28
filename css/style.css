@@ -14,12 +14,9 @@ body {
   text-transform: uppercase;
 }
 
-
 /* Navbar */
 header {
-  
   padding: 30px 0;
-  
 }
 
 nav ul {
@@ -72,11 +69,10 @@ section {
 #puma img,
 #adidas img,
 #newbalance img {
-  width: 100%;      
-  height: auto;     
+  width: 100%;
+  height: auto;
   display: block;
 }
-
 
 /* Grid de productos */
 .nike, .puma, .adidas, .newbalance {
@@ -132,4 +128,38 @@ section {
 .producto button:hover {
   background: #ff3c3c;
 }
+
+/* 🔹 Estilo para el saludo en la bienvenida */
+.saludo-usuario {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.saludo-usuario h2,
+.saludo-usuario p {
+  color: white;
+}
+
+/* Título visible */
+#titulo {
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Contador de carrito visible */
+#contador-carrito {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Mantener demás estilos previos */
+body {
+  background-color: #000;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
 
